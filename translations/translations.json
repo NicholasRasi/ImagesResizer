@@ -1,0 +1,83 @@
+{
+  "Image extensions not valid": {
+    "it": "Estensione immage non valida"
+  },
+  "Finished": {
+    "it": "Finito"
+  },
+  "No settings found for the selected size": {
+    "it": "Nessuna configurazione trovata per la dimensione selezionata"
+  },
+  "Sizes are not correct": {
+    "it": "Dimensioni inserite non corrette"
+  },
+  "No size found": {
+    "it": "Nessuna dimensione trovata"
+  },
+  "Configuration file not founded at: ": {
+    "it": "File di configurazione non trovato in: "
+  },
+  "Resize": {
+    "it": "Ridimensiona"
+  },
+  "Sizes": {
+    "it": "Dimensioni"
+  },
+  "Select": {
+    "it": "Seleziona"
+  },
+  "Quality": {
+    "it": "Qualità"
+  },
+  "Go": {
+    "it": "Vai"
+  },
+  "Reset": {
+    "it": "Reset"
+  },
+  "Resize mode": {
+    "it": "Modalità ridimensionamento"
+  },
+  "Auto size": {
+    "it": "Dimensione automatica"
+  },
+  "None": {
+    "it": "Nessuno"
+  },
+  "Height": {
+    "it": "Altezza"
+  },
+  "Width": {
+    "it": "Larghezza"
+  },
+  "Horizontal align": {
+    "it": "Allineamento orizzontale"
+  },
+  "Left": {
+    "it": "Sinistra"
+  },
+  "Center": {
+    "it": "Centro"
+  },
+  "Right": {
+    "it": "Destra"
+  },
+  "Vertical align": {
+    "it": "Allineamento verticale"
+  },
+  "Top": {
+    "it": "Alto"
+  },
+  "Middle": {
+    "it": "Metà"
+  },
+  "Bottom": {
+    "it": "Basso"
+  },
+  "Preset": {
+    "it": "Preset"
+  },
+  "Open output folder":{
+    "it": "Apri cartella"
+  }
+}

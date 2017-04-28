@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#images {
+    padding: 10px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: white;
+}
+
+#images.empty:before {
+    content: "Rilascia le tue immagini qui";
+}
+
+#images.notempty:before {
+    content: "";
+}
+
+#images.hover {
+    border-color: gray;
+}
+
+.image {
+    position: relative;
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+.image:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+
+.close-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity .35s ease;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.close-button a {
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    z-index: 1;
+}
+
+.close-button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.image:hover .close-button {
+    opacity: 1;
+}
+
+.slider-selection {
+    background: gray !important;
+}
+
+.progress{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+.form-size{
+    width: 100px !important;
+}

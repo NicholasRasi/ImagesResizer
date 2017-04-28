@@ -1,0 +1,34 @@
+{
+  "app_name": "ImagesResizer",
+  "author": "http://makeb.it",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-slider": "^9.7.3",
+    "jimp": "^0.2.27",
+    "jquery": "^3.2.1",
+    "localize": "^0.4.7",
+    "noty": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "license": "MIT",
+  "main": "index.html",
+  "name": "imageResizer",
+  "description": "Resize images easily with this app",
+  "version": "1.0.0",
+  "window": {
+    "title": "Image Resizer",
+    "icon": "icon.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 500,
+    "position": "center",
+    "min_width": 1200,
+    "min_height": 500
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

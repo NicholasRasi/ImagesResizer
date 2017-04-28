@@ -1,0 +1,25 @@
+{
+  "sizes": {
+    "News": {
+      "width": 700,
+      "height": 500,
+      "quality": 60,
+      "resizeMode": ["cover"],
+      "autoSize": "width"
+    },
+    "Highlights": {
+      "width": 350,
+      "height": 300,
+      "quality": 60,
+      "resizeMode": ["cover"],
+      "autoSize": "width"
+    },
+    "Focuson": {
+      "width": 300,
+      "height": 300,
+      "quality": 50,
+      "resizeMode": ["cover"],
+      "autoSize": "width"
+    }
+  }
+}
