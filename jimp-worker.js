@@ -61,7 +61,7 @@ self.addEventListener("message", function (message) {
                             "presetName": presetName,
                             "name": imageName,
                             "src": src,
-                            "type": 'resize'
+                            "type": 'cover'
                         };
                         self.postMessage(message);   // message the main thread
                     });
@@ -81,7 +81,7 @@ self.addEventListener("message", function (message) {
                             "presetName": presetName,
                             "name": imageName,
                             "src": src,
-                            "type": 'resize'
+                            "type": 'contain'
                         };
                         self.postMessage(message);   // message the main thread
                     });
